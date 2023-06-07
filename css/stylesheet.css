@@ -172,7 +172,7 @@ body._lock {
   div.present__text {
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     -moz-column-gap: 20px;
          column-gap: 20px;
     justify-content: space-between;
