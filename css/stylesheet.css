@@ -77,14 +77,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "Gilroy";
-  src: url("./../fonts/Gilroy-Light.woff2") format("woff2"), url("./../fonts/Gilroy-Light.woff") format("woff");
+  src: url("../Fonts/Gilroy-Light.woff2") format("woff2"), url("../Fonts/Gilroy-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("./../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("./../fonts/Gilroy-ExtraBold.woff") format("woff");
+  src: url("../Fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../Fonts/Gilroy-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -172,7 +172,7 @@ body._lock {
   div.present__text {
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     -moz-column-gap: 20px;
          column-gap: 20px;
     justify-content: space-between;
@@ -270,7 +270,7 @@ body._lock {
 .present__text {
   margin: 39px 0 0 0;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
   justify-content: space-between;
   align-items: center;
 }
